@@ -1,0 +1,47 @@
+{
+  "name": "node_authentication_api",
+  "version": "1.0.0",
+  "description": "Template for authentication API in Node JS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "dev": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Shreyas582/node_authentication_api.git"
+  },
+  "keywords": [
+    "Node",
+    "Authentication",
+    "API"
+  ],
+  "author": "Shreyas Sankpal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com:Shreyas582/node_authentication_api/issues"
+  },
+  "homepage": "https://github.com/github.com:Shreyas582/node_authentication_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0",
+    "node-sessionstorage": "^1.0.0",
+    "nodemailer": "^6.9.1",
+    "react-devtools": "^4.27.6",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  }
+}
